@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Strategy", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.ChainOfResponsibility", "DesignPatterns.ChainOfResponsibility\DesignPatterns.ChainOfResponsibility.csproj", "{775193B5-86DD-4380-9955-83FC4FD3E476}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns.Command", "DesignPatterns.Command\DesignPatterns.Command.csproj", "{40838005-45D0-4D95-8908-45D0B0F85F44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -23,6 +25,10 @@ Global
 		{775193B5-86DD-4380-9955-83FC4FD3E476}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{775193B5-86DD-4380-9955-83FC4FD3E476}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{775193B5-86DD-4380-9955-83FC4FD3E476}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40838005-45D0-4D95-8908-45D0B0F85F44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40838005-45D0-4D95-8908-45D0B0F85F44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40838005-45D0-4D95-8908-45D0B0F85F44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40838005-45D0-4D95-8908-45D0B0F85F44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{721D0325-3C40-4AA3-B09E-CCDC6DEBBBD1} = {25F4586D-CE4D-4CA0-9D5E-0A034294C1D4}
 		{775193B5-86DD-4380-9955-83FC4FD3E476} = {25F4586D-CE4D-4CA0-9D5E-0A034294C1D4}
+		{40838005-45D0-4D95-8908-45D0B0F85F44} = {25F4586D-CE4D-4CA0-9D5E-0A034294C1D4}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3FB010CF-97E7-48FD-B158-17741B090F6B}
